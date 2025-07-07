@@ -2,6 +2,14 @@
   max-width: 1920px;
   background-color: #f2df4f;
   font-family: Arial, Helvetica, sans-serif;
+  height: 800px;
+  position: relative;
+}
+.bgImage {
+  position: absolute;
+  top: 24%;
+  right: 0;
+  z-index: 0;
 }
 nav {
   padding: 30px 100px;
@@ -48,4 +56,33 @@ nav {
   font-size: 4rem;
   max-width: 600px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 15px;
+}
+
+.partners {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.partners p {
+  padding: 80px 0px 80px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #a7a6a0;
+  font-size: 1rem;
+}
+.partners ul {
+  display: flex;
+  padding: 80px 100px 80px 0px;
+  gap: 56px;
+}
+.partners ul li {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }

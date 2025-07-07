@@ -1,0 +1,55 @@
+.search {
+  display: flex;
+  position: relative;
+  margin-left: 100px;
+  z-index: 1;
+  max-width: 1132px;
+  box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 100px;
+}
+
+.job_position,
+.city {
+  position: relative;
+}
+.job_position input,
+.city input {
+  padding: 30px 35px;
+  width: 470px;
+  border: none;
+  text-align: center;
+  color: black;
+  outline: none;
+}
+
+.job_position input::placeholder,
+.city input::placeholder {
+  color: rgb(9, 1, 1);
+}
+.job_position img,
+.city img {
+  position: absolute;
+  top: 35%;
+}
+.job_position img {
+  left: 120px;
+}
+.city img {
+  left: 155px;
+}
+.search input[type="submit"] {
+  width: 215px;
+  background-color: #274059;
+  color: #fff;
+  border: none;
+}
+
+.job_position::before {
+  content: "";
+  position: absolute;
+  top: 35%; /* adjust as needed */
+  right: 0;
+  height: 30%; /* partial height */
+  width: 1.3px;
+  background-color: rgba(0, 0, 0, 0.192);
+}
