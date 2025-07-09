@@ -1,0 +1,44 @@
+.vacancies_list {
+  max-width: 1920px;
+  background-color: #f2df4fd6;
+  display: flex;
+  padding-right: 100px;
+  flex-direction: column;
+}
+.vacancies_list ul {
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  column-gap: 180px;
+  row-gap: 40px;
+  padding-top: 40px;
+}
+.new_position {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.new_position h2 {
+  font-size: 1.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.new_position p {
+  font-size: 0.95rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(105, 101, 101);
+}
+.vacancies_list button {
+  width: 240px;
+  height: 65px;
+  align-self: center;
+  margin-top: 90px;
+  margin-bottom: 150px;
+  background-color: #274059;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}

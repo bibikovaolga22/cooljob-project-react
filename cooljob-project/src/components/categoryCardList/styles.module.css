@@ -1,14 +1,15 @@
 .card_content {
   display: grid;
-  grid-template-columns: repeat(5, 270px);
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   margin-left: 100px;
   row-gap: 35px;
   column-gap: 90px;
 }
 .categories {
-  background-color: #f2df4f;
+  background-color: #f2df4fd6;
   padding-bottom: 125px;
   max-width: 1920px;
+  padding-right: 100px;
 }
 .categories h2 {
   margin: 0px 0px 45px 100px;

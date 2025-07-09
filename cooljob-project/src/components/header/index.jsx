@@ -14,11 +14,18 @@ function Header() {
       <header className={styles.main_container}>
         <nav>
           <div className={styles.left_side_menu}>
-            <img src={logo} alt="Company's logo" />
+            <a href="#">
+              {" "}
+              <img src={logo} alt="Company's logo" className="logo_image" />
+            </a>
 
             <ul>
-              <li>Job Search</li>
-              <li>Sturtup Search</li>
+              <li>
+                <a href="">Job Search</a>
+              </li>
+              <li>
+                <a href="">Sturtup Search</a>
+              </li>
             </ul>
           </div>
           <ul className={styles.right_side_menu}>

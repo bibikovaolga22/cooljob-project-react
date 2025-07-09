@@ -1,0 +1,38 @@
+.cities {
+  max-width: 1920px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: #52606d;
+  padding-right: 100px;
+}
+.cities h3 {
+  padding-top: 56px;
+  font-size: 1.37rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.cities_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 0px;
+  border-bottom: 2px solid #465461;
+}
+.cities_list li {
+  font-size: 1.37rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  list-style: none;
+}
+.social_media {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.socialmedia_list {
+  display: flex;
+  gap: 38px;
+  list-style: none;
+  cursor: pointer;
+}

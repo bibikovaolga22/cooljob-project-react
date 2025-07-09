@@ -1,6 +1,6 @@
 .main_container {
   max-width: 1920px;
-  background-color: #f2df4f;
+  background-color: #f2df4fd6;
   font-family: Arial, Helvetica, sans-serif;
   height: 800px;
   position: relative;
@@ -10,6 +10,10 @@
   top: 24%;
   right: 0;
   z-index: 0;
+}
+.left_side_menu a {
+  width: 109px;
+  height: 30px;
 }
 nav {
   padding: 30px 100px;
@@ -29,8 +33,12 @@ nav {
 }
 .left_side_menu ul li {
   list-style: none;
+}
+.left_side_menu ul li a {
   font-size: 0.95rem;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 .right_side_menu {
   display: flex;

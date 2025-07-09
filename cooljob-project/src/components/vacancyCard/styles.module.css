@@ -1,0 +1,47 @@
+.job_card {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.job_card span {
+  width: 15px;
+  height: 15px;
+  border-radius: 70%;
+  display: block;
+}
+.category,
+.job_card h4,
+.position_location,
+.publication_date {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 47px;
+  gap: 17px;
+}
+.category {
+  color: grey;
+  padding-top: 40px;
+}
+.job_card h4 {
+  font-size: 1.38rem;
+  padding-left: 47px;
+  width: 270px;
+  line-height: 1.5;
+}
+.job_card h4 {
+  padding-top: 40px;
+}
+.position_location {
+  padding-top: 40px;
+}
+
+.publication_date {
+  margin-bottom: -40px;
+}
+.card_content {
+  height: 290px;
+}

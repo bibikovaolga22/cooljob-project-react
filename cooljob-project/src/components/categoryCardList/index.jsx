@@ -6,6 +6,7 @@ import medicine from "../../assets/icons/medicine.svg";
 import multimedia from "../../assets/icons/multimedia.svg";
 import chat from "../../assets/icons/chat.svg";
 import managment from "../../assets/icons/managment.svg";
+import arrow from "../../assets/icons/arrowRight.svg";
 import sales from "../../assets/icons/sales.svg";
 import CategoryCard from "../categoryCard";
 import styles from "./styles.module.css";
@@ -20,6 +21,7 @@ const cards = [
   { image: chat, text: "Support service" },
   { image: managment, text: "Managment" },
   { image: sales, text: "Sales" },
+  { image: arrow, text: "Find more" },
 ];
 
 function CategoryCardList() {
