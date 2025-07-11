@@ -1,7 +1,6 @@
 import styles from "./styles.module.css";
 
 function VacancyCard({ vacancy }) {
-  console.log(vacancy);
   return (
     <>
       <li key={vacancy.id} className={styles.job_card}>

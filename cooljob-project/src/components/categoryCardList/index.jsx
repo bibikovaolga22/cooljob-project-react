@@ -30,7 +30,7 @@ function CategoryCardList() {
       <h2>Job by categories</h2>
       <ul className={styles.card_content}>
         {cards.map((card) => {
-          return <CategoryCard card={card} />;
+          return <CategoryCard card={card} key={card.text} />;
         })}
       </ul>
     </div>

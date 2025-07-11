@@ -68,7 +68,6 @@ const vacanciesList = [
   },
 ];
 function VacanciesCardList() {
-  console.log(vacanciesList);
   return (
     <div className={styles.vacancies_list}>
       <div className={styles.new_position}>
@@ -77,7 +76,7 @@ function VacanciesCardList() {
       </div>
       <ul>
         {vacanciesList.map((vacancy) => {
-          return <VacancyCard vacancy={vacancy} />;
+          return <VacancyCard vacancy={vacancy} key={vacancy.id} />;
         })}
       </ul>
       <button>All vacancies</button>

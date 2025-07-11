@@ -1,5 +1,5 @@
-import logo from "../../assets/logo.svg";
 import styles from "./styles.module.css";
+import logo from "../../assets/logo.svg";
 import SearchBar from "../searchBar";
 import bgImg from "../../assets/Rectangle.svg";
 import disney from "../../assets/partner's logos/disney.svg";
@@ -7,6 +7,29 @@ import fb from "../../assets/partner's logos/fb.svg";
 import microsoft from "../../assets/partner's logos/microsoft.svg";
 import sony from "../../assets/partner's logos/sony.svg";
 import cocacola from "../../assets/partner's logos/cocacola.svg";
+import IconsList from "../iconsList";
+const logoList = [
+  {
+    src: disney,
+    alt: "Disney",
+  },
+  {
+    src: fb,
+    alt: "Facebook",
+  },
+  {
+    src: microsoft,
+    alt: "Microsoft",
+  },
+  {
+    src: sony,
+    alt: "Sony",
+  },
+  {
+    src: cocacola,
+    alt: "Cocacola",
+  },
+];
 
 function Header() {
   return (
@@ -45,25 +68,9 @@ function Header() {
       <div className={styles.partners}>
         <p>We can help to find a job:</p>
         <ul>
-          <li>
-            <img src={disney} alt="" />
-          </li>
-          <li>
-            {" "}
-            <img src={fb} alt="" />
-          </li>
-          <li>
-            {" "}
-            <img src={microsoft} alt="" />
-          </li>
-          <li>
-            {" "}
-            <img src={sony} alt="" />
-          </li>
-          <li>
-            {" "}
-            <img src={cocacola} alt="" />
-          </li>
+          {logoList.map((logo) => (
+            <IconsList logo={logo} key={logo.alt} />
+          ))}
         </ul>
       </div>
     </>
